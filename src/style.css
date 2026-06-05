@@ -28,7 +28,7 @@ header nav ul li a::after {
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: #00d2ff;
+    background-color: #00ffb3;
     transition: width 0.7s ease;
 }
 
@@ -60,7 +60,13 @@ header{
     font-family: "Orbitron", sans-serif;
     font-size: 2rem;
     font-weight: 900;
-    color: #00d2ff;
-    text-shadow: 0 0 8px rgba(32, 227, 157, 0.6);
+    color: #e6fcf5;
+text-shadow: 0 0 10px rgba(0, 255, 179, 0.4);
 }
 
+
+.container{
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(135deg, #0b0e11 0%, #12171a 60%, #0d5f47 100%);
+}
